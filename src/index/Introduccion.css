@@ -1,0 +1,60 @@
+/* Introduccion.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #256cd6; /* Light grey background color */
+    margin: 0;
+    padding: 0;
+    padding-top: 20px; /* Added padding at the top */
+  }
+  
+  /* Accordion Container Styles */
+  .accordion-container {
+    max-width: 800px; /* Center the content with a max-width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #090808; /* White background for accordion container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+  }
+  
+  /* Accordion Styles */
+  .accordion-button {
+    background-color: #bdcd95;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #e7f346;
+  }
+  
+  .accordion-body {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .accordion-item {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  /* List Group Styles */
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #377dc4;
+  }

@@ -1,28 +1,28 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Home from "./index/Home";
+import Contact from "./index/Contact";
+import Introduccion from "./index/Introduccion";
+import Galeria from './index/Galeria';
+import Inicio from './index/Inicio';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Galeria" element={<Galeria />} />
+          <Route path="/Introduccion" element={<Introduccion />} />
+          <Route path="/Inicio" element={<Inicio />}/>
+        </Routes>
+      </Router>
+    </>
   );
 }
 

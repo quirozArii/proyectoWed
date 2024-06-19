@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(224, 235, 14);
+  }
+  
+  html {
+    background-color: rgb(15, 16, 13);
+  }
+  .imagenes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    
+  }
+  
+  .image-card {
+    width: 100%; /* Ancho máximo de la tarjeta */
+    margin: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    
+    
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+    color: rgb(177, 85, 32); /* Color del título */
+  }
+  
+  .image-text {
+    color: white; /* Color del texto */
+  }
+  .card-body {
+    padding: 2rem 0 !important;
+    background-color: #16A085 ; /* Color de fondo del cuerpo de la tarjeta */
+    border-radius: 10px;
+    box-shadow: 25px;
+}

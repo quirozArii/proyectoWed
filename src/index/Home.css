@@ -1,0 +1,31 @@
+.card:hover {
+    background-color:	#CD5C5C; /* Color de fondo al hacer hover */
+    box-shadow: 5px 10px 20px 1px rgba(109, 80, 108, 0.273) !important;
+    transition: all 0.7s linear;
+}
+
+.card-body {
+    padding: 2rem 0 !important;
+    background-color: 	black; /* Color de fondo del cuerpo de la tarjeta */
+}
+
+.card-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    background-color: #CD9BD3; /* Color de fondo del texto de la tarjeta LINEA */
+}
+
+.overflow {
+    overflow: hidden;
+    background-color: 	#CD5C5C; /* Color de fondo del elemento con overflow */
+}
+
+.card-img-top {
+    padding: 50px;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.8);
+}
